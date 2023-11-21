@@ -1,1 +1,1 @@
-* Initial build
+* Catch an extra exception
