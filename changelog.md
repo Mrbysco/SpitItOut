@@ -1,1 +1,1 @@
-* Catch an extra exception
+* Backport to 1.16
