@@ -14,7 +14,7 @@ public class ConnectionMixin {
 	@Inject(method = "exceptionCaught(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Throwable;)V",
 			at = @At(
 					value = "INVOKE",
-					target = "Lnet/minecraft/network/Connection;getCurrentProtocol()Lnet/minecraft/network/ConnectionProtocol;",
+					target = "Lnet/minecraft/network/ConnectionProtocol$CodecData;protocol()Lnet/minecraft/network/ConnectionProtocol;",
 					shift = At.Shift.BEFORE,
 					ordinal = 0
 			)

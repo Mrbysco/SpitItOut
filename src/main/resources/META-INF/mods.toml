@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[46,)"
+loaderVersion="[1,)"
 issueTrackerURL="https://github.com/Mrbysco/SpitItOut"
 license="MIT"
 [[mods]]
@@ -12,3 +12,5 @@ description='''
 Stop swallowing the exception and spit it out!
 '''
 displayTest="IGNORE_ALL_VERSION"
+[[mixins]]
+config="spititout.mixins.json"
